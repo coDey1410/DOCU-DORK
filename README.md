@@ -20,8 +20,8 @@ A Streamlit application that allows users to upload PDF documents and ask questi
 ### Using Docker
 
 ```bash
-docker pull <your-dockerhub-username>/docu-dork
-docker run -p 8083:8083 <your-dockerhub-username>/docu-dork
+docker pull utsav21w21q/docu-dark
+docker run -p 8083:8083 utsav21w21q/docu-dark
 ```
 
 Access the application at http://localhost:8083
@@ -29,17 +29,20 @@ Access the application at http://localhost:8083
 ### Local Development
 
 1. Create a virtual environment:
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Run the application:
+
 ```bash
 streamlit run app.py
 ```
@@ -56,4 +59,5 @@ The application requires AWS credentials to store indices in S3. Set the followi
 ## License
 
 MIT License
+
 # DOCU-DORK
